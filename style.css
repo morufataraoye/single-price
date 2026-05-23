@@ -5,6 +5,7 @@
     --Gray-typo: hsl(218, 22%, 67%);
     --box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     --button-box-shadow: 0 0.3rem 0.8rem rgba(0,0,0,0.3);
+    --bottom-right-bg: hsla(179, 62%, 43%, 0.8);
 }
 *{
     box-sizing: border-box;
@@ -97,7 +98,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     gap: clamp(0.3rem, 0.5vw, 0.4rem);
-    background-color: hsla(179, 62%, 43%, 0.8);
+    background-color: var(--bottom-right-bg);
     color: white;
     width: 50%;
     padding: clamp(2rem, 4vw, 3rem);
